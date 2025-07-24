@@ -1,0 +1,13 @@
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\bin\Debug\net8.0\KASHOP.DAL.deps.json
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\bin\Debug\net8.0\KASHOP.DAL.dll
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\bin\Debug\net8.0\KASHOP.DAL.pdb
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\KASHOP.DAL.csproj.AssemblyReference.cache
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\KASHOP.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\KASHOP.DAL.AssemblyInfoInputs.cache
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\KASHOP.DAL.AssemblyInfo.cs
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\KASHOP.DAL.csproj.CoreCompileInputs.cache
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\KASHOP.DAL.sourcelink.json
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\KASHOP.DAL.dll
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\refint\KASHOP.DAL.dll
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\KASHOP.DAL.pdb
+C:\Users\technipal\Desktop\C#projects\API\KASHOP\KASHOP.DAL\obj\Debug\net8.0\ref\KASHOP.DAL.dll
