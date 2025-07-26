@@ -1,4 +1,5 @@
 ﻿using KASHOP.BLL.Interfaces;
+using KASHOP.BLL.Services.Interfaces;
 using KASHOP.DAL.DTOs.Requests;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -7,10 +8,10 @@ namespace KASHOP.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoriesController : ControllerBase
+    public class BrandsController : ControllerBase
     {
-        private readonly ICategoryService _service;
-        public CategoriesController(ICategoryService service)
+        private readonly IBrandService _service;
+        public BrandsController(IBrandService service)
         {
             _service = service;
         }
@@ -24,21 +25,21 @@ namespace KASHOP.API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            var category = _service.GetById(id);
-            if (category == null) return NotFound();
+            var brand = _service.GetById(id);
+            if (brand == null) return NotFound();
 
-            return Ok(category);
+            return Ok(brand);
         }
 
         [HttpPost]
-        public IActionResult Create([FromBody] CategoryRequest request)
+        public IActionResult Create([FromBody] BrandRequest request)
         {
             var id = _service.Create(request);
-            return CreatedAtAction(nameof(GetById), new { id }, new { data = request});
+            return CreatedAtAction(nameof(GetById), new { id }, new { data = request });
         }
 
         [HttpPatch("{id}")]
-        public IActionResult Update([FromRoute] int id, [FromBody] CategoryRequest request)
+        public IActionResult Update([FromRoute] int id, [FromBody] BrandRequest request)
         {
             var updated = _service.Update(id, request);
             return updated > 0 ? Ok() : NotFound();
@@ -59,7 +60,5 @@ namespace KASHOP.API.Controllers
 
             return Deleted > 0 ? Ok() : NotFound();
         }
-
-
     }
 }

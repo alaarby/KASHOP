@@ -5,6 +5,9 @@ using KASHOP.DAL.Data;
 using KASHOP.DAL.Repositories.Interfaces;
 using KASHOP.DAL.Repositories;
 using Microsoft.EntityFrameworkCore;
+using KASHOP.DAL.Repositories.Classes;
+using KASHOP.BLL.Services.Interfaces;
+using KASHOP.BLL.Services.Classes;
 
 namespace KASHOP.API
 {
@@ -25,6 +28,9 @@ namespace KASHOP.API
             //DI
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IBrandRepository, BrandRepository>();
+            builder.Services.AddScoped<IBrandService, BrandService>();
+
 
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
