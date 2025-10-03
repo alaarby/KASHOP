@@ -1,0 +1,3 @@
+wwwroot\images\apple.webp
+wwwroot\images\huwawi.webp
+wwwroot\images\samsung.jpg

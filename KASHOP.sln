@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KASHOP.API", "KASHOP.API\KASHOP.API.csproj", "{D5A0E05E-433B-47E3-9036-5B13CCE64F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KASHOP.DAL", "KASHOP.DAL\KASHOP.DAL.csproj", "{D640A5C5-1D6E-4928-AD40-5182CC016794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KASHOP.BLL", "KASHOP.BLL\KASHOP.BLL.csproj", "{271A8D57-B139-4138-853D-46948E5CC37A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5A0E05E-433B-47E3-9036-5B13CCE64F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A0E05E-433B-47E3-9036-5B13CCE64F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A0E05E-433B-47E3-9036-5B13CCE64F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A0E05E-433B-47E3-9036-5B13CCE64F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D640A5C5-1D6E-4928-AD40-5182CC016794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D640A5C5-1D6E-4928-AD40-5182CC016794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D640A5C5-1D6E-4928-AD40-5182CC016794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D640A5C5-1D6E-4928-AD40-5182CC016794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271A8D57-B139-4138-853D-46948E5CC37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271A8D57-B139-4138-853D-46948E5CC37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271A8D57-B139-4138-853D-46948E5CC37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271A8D57-B139-4138-853D-46948E5CC37A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {558B3588-2428-4000-B6F6-63EFE4DC2301}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,508 @@
+[
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.BrandsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Admin/Brands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.BrandsController",
+    "Method": "GetById",
+    "RelativePath": "api/Admin/Brands/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.BrandsController",
+    "Method": "Update",
+    "RelativePath": "api/Admin/Brands/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "KASHOP.DAL.DTOs.Requests.BrandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.BrandsController",
+    "Method": "Delete",
+    "RelativePath": "api/Admin/Brands/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.BrandsController",
+    "Method": "Create",
+    "RelativePath": "api/Admin/Brands/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MainImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.BrandsController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/Admin/Brands/ToggleStatus/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.CategoriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Admin/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.CategoriesController",
+    "Method": "Create",
+    "RelativePath": "api/Admin/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "KASHOP.DAL.DTOs.Requests.CategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.CategoriesController",
+    "Method": "GetById",
+    "RelativePath": "api/Admin/Categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.CategoriesController",
+    "Method": "Update",
+    "RelativePath": "api/Admin/Categories/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "KASHOP.DAL.DTOs.Requests.CategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.CategoriesController",
+    "Method": "Delete",
+    "RelativePath": "api/Admin/Categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.CategoriesController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/Admin/Categories/ToggleStatus/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Admin/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Admin.ProductsController",
+    "Method": "Create",
+    "RelativePath": "api/Admin/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Discount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rate",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "MainImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BrandId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Customer.CategoriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Customer.CategoriesController",
+    "Method": "GetById",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Customer.BrandsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Customer/Brands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Customer.BrandsController",
+    "Method": "GetById",
+    "RelativePath": "api/Customer/Brands/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Customer.CartsController",
+    "Method": "GetUserCart",
+    "RelativePath": "api/Customer/Carts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Customer.CartsController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Customer/Carts/AddToCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "KASHOP.DAL.DTOs.Requests.CartRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Customer.CheckOutsController",
+    "Method": "Payment",
+    "RelativePath": "api/Customer/CheckOuts/payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "KASHOP.DAL.DTOs.Requests.CheckOutRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Customer.CheckOutsController",
+    "Method": "Success",
+    "RelativePath": "api/Customer/CheckOuts/Success/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Identity.AccountController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Identity/Account/confirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Identity.AccountController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Identity/Account/forgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "KASHOP.DAL.DTOs.Requests.ForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Identity.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Identity/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "KASHOP.DAL.DTOs.Requests.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "KASHOP.DAL.DTOs.responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Identity.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Identity/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequest",
+        "Type": "KASHOP.DAL.DTOs.Requests.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "KASHOP.DAL.DTOs.responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "KASHOP.API.Areas.Identity.AccountController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Identity/Account/resetPassword",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "KASHOP.DAL.DTOs.Requests.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
